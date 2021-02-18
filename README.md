@@ -6,6 +6,7 @@
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [GitHub CLI](https://cli.github.com/) (optional)
+* [Node JS](https://nodejs.org/en/) (used for Pymakr)
 
 ### Cloning the repo
 #### A. Using github CLI

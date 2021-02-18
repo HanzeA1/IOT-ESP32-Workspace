@@ -1,4 +1,0 @@
-[submodule ".micropy/esp32-1.14.0"]
-	path = .micropy/esp32-1.14.0
-	url = https://github.com/HanzeA1/esp32-1.14.0.git
-	

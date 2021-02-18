@@ -5,24 +5,19 @@
     // Loaded Stubs:  esp32-micropython-1.12.0 
     "python.autoComplete.extraPaths": [
         ".micropy\\esp32-1.14.0\\frozen",
-        ".micropy\\esp32-1.14.0\\stubs",
-        ".micropy\\IOT-ESP32"
+        ".micropy\\esp32-1.14.0\\stubs"
     ],
     "python.autoComplete.typeshedPaths":  [
         ".micropy\\esp32-1.14.0\\frozen",
-        ".micropy\\esp32-1.14.0\\stubs",
-        ".micropy\\IOT-ESP32"
+        ".micropy\\esp32-1.14.0\\stubs"
     ],
     "python.analysis.typeshedPaths":  [
         ".micropy\\esp32-1.14.0\\frozen",
-        ".micropy\\esp32-1.14.0\\stubs",
-        ".micropy\\IOT-ESP32"
+        ".micropy\\esp32-1.14.0\\stubs"
     ],
     "python.analysis.extraPaths": [
         ".micropy\\esp32-1.14.0\\frozen",
-        ".micropy\\esp32-1.14.0\\stubs",
-        ".micropy\\ProjectIOT",
-        ".micropy\\wifi_test"
+        ".micropy\\esp32-1.14.0\\stubs"
     ],
 
     "python.linting.pylintEnabled": true,

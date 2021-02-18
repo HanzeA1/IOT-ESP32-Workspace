@@ -1,0 +1,33 @@
+{
+    "python.linting.enabled": true,
+    "python.jediEnabled": false,
+
+    // Loaded Stubs:  esp32-micropython-1.12.0 
+    "python.autoComplete.extraPaths": [
+        ".micropy\\esp32-1.14.0\\frozen",
+        ".micropy\\esp32-1.14.0\\stubs",
+        ".micropy\\IOT-ESP32"
+    ],
+    "python.autoComplete.typeshedPaths":  [
+        ".micropy\\esp32-1.14.0\\frozen",
+        ".micropy\\esp32-1.14.0\\stubs",
+        ".micropy\\IOT-ESP32"
+    ],
+    "python.analysis.typeshedPaths":  [
+        ".micropy\\esp32-1.14.0\\frozen",
+        ".micropy\\esp32-1.14.0\\stubs",
+        ".micropy\\IOT-ESP32"
+    ],
+    "python.analysis.extraPaths": [
+        ".micropy\\esp32-1.14.0\\frozen",
+        ".micropy\\esp32-1.14.0\\stubs",
+        ".micropy\\ProjectIOT",
+        ".micropy\\wifi_test"
+    ],
+
+    "python.linting.pylintEnabled": true,
+    "python.languageServer": "Pylance",
+
+    "git.autofetch": true, // Enable Autofetch
+    "git.autofetchPeriod": 90
+}

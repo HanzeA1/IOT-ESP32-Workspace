@@ -1,0 +1,17 @@
+name: Lint Python code
+on: [push, pull_request]
+
+jobs:
+  python-lint:
+    runs-on: ubuntu-latest
+    name: CI workflow
+    steps:
+    - name: Checkout source repo
+      uses: actions/checkout@v2
+
+    - name: Linting
+      uses: alexanderdamiani/pylinter@v1.1.0
+      with:
+        python-root: './src'
+        skip-mypy: true
+        flake8-flags: --ignore=E121,E123,E126,E226,E24,E501,E704

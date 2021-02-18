@@ -14,7 +14,7 @@
 * Get the subrepo's. `cd REPONAME && git submodule update --init --recursive`
 
 #### B. Using Visual Studio Code
-* Clone the repo using the url `GITURL` ![VS Code Welcome screen](screenshot/step1.png)
+* Clone the repo using the url `GITURL` ![VS Code Welcome screen](screenshot/welcomescreen.png)
 * If you're not signed in you will be prompted to [sign in](https://code.visualstudio.com/docs/editor/github#_authenticating-with-an-existing-repository)
 * After cloning you can open it using the button in the notification ![Notification dialog](screenshot/openbutton.png)
 * Open a terminal using <kbd>CTRL</kbd> + <kbd>Shift</kbd> + <kbd>\`</kbd>, and initaliaze submodules using `git submodule update --init --recursive`

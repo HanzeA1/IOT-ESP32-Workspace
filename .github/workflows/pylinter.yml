@@ -1,5 +1,7 @@
 name: Lint Python code
-push:
+
+on:
+  push:
     paths:
     - ".github/workflows/pylinter.yml"
     - "src/**"

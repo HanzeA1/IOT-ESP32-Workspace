@@ -2,11 +2,11 @@ name: Lint Python code
 push:
     paths:
     - ".github/workflows/pylinter.yml"
-    - 'src/**'
+    - "src/**""
   pull_request:
     paths:
     - ".github/workflows/pylinter.yml"
-    - 'src/**'
+    - "src/**"
 
 jobs:
   python-lint:

@@ -25,7 +25,7 @@ jobs:
         skip-mypy: true
         flake8-flags: --ignore=E121,E123,E126,E226,E24,E501,E704
     
-     - name: Commit isort changes
+    - name: Commit isort changes
       if: ${{ github.event_name != 'pull_request' }}
       run: |
         git config --local user.email "action@github.com"

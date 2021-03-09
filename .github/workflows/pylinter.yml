@@ -24,3 +24,17 @@ jobs:
         python-root: './src'
         skip-mypy: true
         flake8-flags: --ignore=E121,E123,E126,E226,E24,E501,E704
+    
+     - name: Commit isort changes
+      if: ${{ github.event_name != 'pull_request' }}
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A && git diff-index --cached --quiet HEAD || git commit -m '🎨 Run isort'
+
+    - name: Push isort changes
+      if: ${{ github.event_name != 'pull_request' }}
+      uses: ad-m/github-push-action@v0.5.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
